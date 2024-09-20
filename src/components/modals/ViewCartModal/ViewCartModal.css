@@ -1,0 +1,18 @@
+.special-request {
+    margin-top: 10px;
+  }
+
+  .special-request>label{
+    font-size: 14px;
+    color: var(--darkgrey);
+}
+
+.special-request>textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--violet);
+    resize: none;
+    font-family: inherit;
+    margin-top: 6px;
+  }

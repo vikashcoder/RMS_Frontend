@@ -1,0 +1,12 @@
+export const tableShape = ["CIRCLE","RECTANGLE"];
+export const itemsType = ["QUATER","HALF","FULL"]
+export const transactionMode = ["CASH","CARD","GOOGLEPAY","PHONEPE","PAYTM","OTHERUPI"]
+export const employeeStatus = ["ACTIVE","INACTIVE","FIRED"]
+export const orderType = ["DINEIN","TAKEAWAY","DELIVERY"]
+export const kotStatus = ["PREPARING","READY","SERVED"]
+// export const frontend = "http://192.168.31.47:3000/orders/qr"
+export const frontend = "https://www.restura.online/orders/qr"
+export const veg_nonNeg =["VEG","NONVEG"]
+export const billPaymentMode = ["CASH","CARD","GOOGLEPAY","PHONEPE","PAYTM","OTHER"]
+export const SHOP_TYPE = ['CAFE', 'DHABA', 'RESTRURANT']
+export const INVENTORY_QUANTITY_TYPES = ['UNIT', 'KG', 'G', 'ML', 'L', 'PACKET'];

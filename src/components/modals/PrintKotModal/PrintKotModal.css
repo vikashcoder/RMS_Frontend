@@ -1,0 +1,84 @@
+.modal-print-kot {
+    width: 280px;
+    background-color: var(--lightwhite2);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-print-kot-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal-print-kot-header>h1 {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modal-print-kot-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    border-bottom: 1px dashed var(--darkgrey);
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.modal-print-kot-middle>p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.modal-print-kot-order-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px dashed var(--darkgrey);
+    gap: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.modal-print-kot-order-items>span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.modal-print-kot-order-items>span:first-child>p{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.modal-print-kot-order-items>span>p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-print-kot-order-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.modal-print-kot-order-footer>p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}

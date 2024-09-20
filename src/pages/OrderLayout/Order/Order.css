@@ -1,0 +1,212 @@
+.right-page-order{
+    flex: 1;
+    background-color: var(--lightwhite2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 10px;
+    min-height: 300px;
+}
+
+.right-page-order>select{
+    background-color: var(--violet);
+    padding: 8px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: var(--lightwhite2);
+    outline: none;
+    border: none;
+}
+
+.right-page-order-customer{
+    position: relative;
+}
+
+.right-page-order-customer>input{
+    background-color: var(--lightwhite);
+    padding: 8px 0 8px 2px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: var(--lightgrey3);
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.right-page-order-type{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin: 5px 0;
+}
+
+.right-page-order-type>li{
+    list-style: none;
+    background-color: var(--lightwhite);
+    color: var(--darkgrey2);
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.active-order-type-tab{
+    background-color: var(--green) !important;
+    color: var(--lightwhite2) !important;
+}
+
+.right-page-order-table{
+    width: 100%;
+    background-color: var(--lightwhite2);
+    padding: 5px;
+}
+
+.right-page-order-table>table{
+    width: 100%;
+}
+
+.right-page-order-table>table>thead>th{
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+    padding-bottom: 10px;
+}
+
+.right-page-order-table>table>thead>th:nth-child(1){
+    text-align: left !important;
+    width: 50%;
+}
+.right-page-order-table>table>thead>th:nth-child(2){
+    width: 20%;
+}
+.right-page-order-table>table>thead>th:nth-child(3){
+    width: 20%;
+}
+.right-page-order-table>table>thead>th:nth-child(4){
+    text-align: right !important;
+    width: 10%;
+}
+
+.right-page-order-table>table>tbody>tr>td{
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+}
+
+.right-page-order-table>table>tbody>tr>td:nth-child(1){
+    text-align: left !important;
+    width: 55%;
+}
+.right-page-order-table>table>tbody>tr>td:nth-child(2){
+    width: 25%;
+}
+.right-page-order-table>table>tbody>tr>td:nth-child(2)>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--violet);
+    border-radius: 5px;
+    color: var(--lightwhite2);
+    padding: 5px 2px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.right-page-order-table>table>tbody>tr>td:nth-child(2)>div>svg{
+    font-size: 14px;
+}
+.right-page-order-table>table>tbody>tr>td:nth-child(3){
+    width: 10%;
+}
+.right-page-order-table>table>tbody>tr>td:nth-child(4){
+    text-align: right !important;
+    width: 10%;
+    cursor: pointer;
+}
+
+.right-page-order-payment{
+    background-color: var(--lightwhite2);
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 5px;
+}
+
+.right-page-order-payment>span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+.right-page-order-payment>span>pre>p{
+    color: var(--black);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.payment-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.payment-btn>button{
+    flex: 1;
+    padding: 8px 10px;
+    background-color: var(--lightViolet);
+    color: var(--violet);
+    width: 100px;
+    border: 1px solid var(--darkviolet);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.payment-btn>button:hover{
+    background-color: var(--violet);
+    color: var(--lightwhite2);
+    cursor: pointer;
+}
+
+.new-order-btn{
+    color: var(--violet);
+    background-color: var(--lightViolet);
+    padding: 5px 10px;
+    font-size: 13.5px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 100px;
+    border: 1px solid var(--darkviolet);
+    transform: scale(1.5);
+}
+
+.new-order-btn:hover{
+    background-color: var(--violet);
+    color: var(--lightwhite2);
+    cursor: pointer;
+}
+
+.order-mobile{
+    display: none !important;
+}
+@media screen and (max-width: 1070px) {
+    .order-laptop{
+        display: none !important;
+    }
+    .order-mobile{
+        display: block !important;
+        width: 100%;
+    }
+}

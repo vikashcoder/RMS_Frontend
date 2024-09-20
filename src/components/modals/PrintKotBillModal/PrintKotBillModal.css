@@ -1,0 +1,137 @@
+.modal-print-bill {
+    width: 280px;
+    background-color: var(--lightwhite2);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-print-bill-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed var(--darkgrey);
+}
+
+.modal-print-bill-header>h1{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-print-bill-header>p{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-print-bill-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    border-bottom: 1px dashed var(--darkgrey);
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.modal-print-bill-middle>p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-print-bill-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px dashed var(--darkgrey);
+    gap: 5px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.modal-print-bill-items>table{
+    width: 100%;
+}
+
+.modal-print-bill-items>table>tr{
+    width: 100%;
+}
+
+.modal-print-bill-items>table>thead>tr>th:nth-child(1){
+    text-align: left;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.modal-print-bill-items>table>thead>tr>th:nth-child(2){
+    text-align: center;
+    width: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.modal-print-bill-items>table>thead>tr>th:nth-child(3){
+    text-align: right;
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.modal-print-bill-items>table>tbody>tr>td:nth-child(1){
+    text-align: left;
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.modal-print-bill-items>table>tbody>tr>td:nth-child(2){
+    text-align: center;
+    width: 15%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.modal-print-bill-items>table>tbody>tr>td:nth-child(3){
+    text-align: right;
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.modal-print-bill-payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.modal-print-bill-payment>span{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.modal-print-bill-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 0;
+}
+
+.modal-print-bill-footer>p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}

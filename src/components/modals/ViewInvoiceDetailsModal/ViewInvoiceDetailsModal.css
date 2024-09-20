@@ -1,0 +1,18 @@
+.view-btn>svg{
+    font-size: 16px;
+}
+
+.view-btn:hover{
+    background-color: var(--violet);
+    color: var(--lightwhite2);
+}
+.view-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: var(--lightwhite2);
+    color: var(--darkgrey);
+    cursor: pointer;
+}

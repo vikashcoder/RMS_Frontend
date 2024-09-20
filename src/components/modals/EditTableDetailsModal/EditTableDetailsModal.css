@@ -1,0 +1,19 @@
+.edit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: var(--lightwhite2);
+    color: var(--darkgrey);
+    cursor: pointer;
+}
+
+.edit-btn>svg{
+    font-size: 16px;
+}
+
+.edit-btn:hover{
+    background-color: var(--orange);
+    color: var(--lightwhite2);
+}

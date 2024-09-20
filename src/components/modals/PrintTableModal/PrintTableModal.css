@@ -1,0 +1,110 @@
+.print-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: var(--lightwhite2);
+    color: var(--darkgrey);
+    cursor: pointer;
+}
+
+.print-btn>svg{
+    font-size: 16px;
+}
+
+.print-btn:hover{
+    background-color: var(--green);
+    color: var(--lightwhite2);
+}
+
+.modal-print-url{
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+    background-color: var(--lightwhite2);
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
+.modal-print-url>header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.modal-print-url>header>img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.modal-print-url>header>h1{
+    color: var(--violet);
+    font-size: 1.5rem;
+}
+
+.modal-print-url>span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    background-color: var(--violet);
+}
+
+.modal-print-url>span>h1{
+    font-size: 24px;
+    color: var(--lightwhite2);
+    font-weight: 600;
+}
+
+.modal-print-url>h3{
+    font-size: 30px;
+    color: var(--black);
+}
+
+.qr-img{
+    width: 320px;
+    height: 320px;
+    background: linear-gradient(135deg, var(--violet) 0%, var(--orange) 100%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-img>img{
+    width: 300px;
+    height: 300px;
+}
+
+.modal-print-url>h2{
+    font-family: "Playwrite CU",cursive !important;
+    color: var(--lightgrey3);
+}
+
+.modal-print-url>p{
+    font-size: 14px;
+    color: var(--lightgrey3);
+    text-align: center;
+}
+.mobile-view{
+    display: none;
+}
+
+.mobile-view>h1{
+    text-align: center;
+    font-size: 16px;
+}
+@media screen and (max-width: 500px) {
+    .mobile-view{
+        display: block;
+    }
+    .tab-view{
+        display: none;
+    }
+}

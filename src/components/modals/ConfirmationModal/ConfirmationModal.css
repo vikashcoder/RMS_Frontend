@@ -1,0 +1,19 @@
+.delete-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: var(--lightwhite2);
+    color: var(--darkgrey);
+    cursor: pointer;
+}
+
+.delete-btn>svg{
+    font-size: 16px;
+}
+
+.delete-btn:hover{
+    background-color: var(--red);
+    color: var(--lightwhite2);
+}

@@ -1,0 +1,140 @@
+.kot-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    background-color: var(--white);
+    width: 300px;
+    border-radius: 15px;
+    height: 350px;
+}
+
+.kot-container:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    transition: transform 1s ease, box-shadow 0.3s ease;
+}
+
+.kot-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--darkgrey);
+    padding-bottom: 15px;
+}
+
+.kot-header-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.kot-header-name>h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.kot-header-name>h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--darkgrey);
+}
+
+.kot-header-name>h5{
+    font-weight: 600;
+    color: var(--darkgrey);
+}
+
+.kot-header-status{
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: var(--lightwhite2);
+}
+
+.kot-table{
+    height: 125px;
+    overflow-y: scroll;
+}
+
+.kot-table::-webkit-scrollbar {
+    width: var(--sb-size);
+    width: 5px;
+  }
+
+.kot-table::-webkit-scrollbar-track {
+    background: #ececec;
+    border-radius: 4px;
+  }
+  
+  .kot-table::-webkit-scrollbar-thumb {
+    background: #9c9c9c;
+    border-radius: 4px;
+  }
+  
+  @supports not selector(::-webkit-scrollbar) {
+    .kot-table {
+        scrollbar-color: #9c9c9c
+        #ececec;
+    }
+  }
+
+.kot-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid var(--darkgrey);
+    padding-top: 15px;
+}
+
+.kot-footer-payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kot-footer-payment>h2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.kot-footer-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.kot-footer-button>button:first-child{
+    flex:1;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: var(--lightwhite2);
+    color: var(--violet);
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--violet);
+    font-weight: 500;
+}
+
+.kot-footer-button>button{
+    font-weight: 500;
+    flex:1;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: var(--violet);
+    color: var(--lightwhite2);
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.kot-footer-button>button:hover{
+    background-color: var(--darkviolet);
+    cursor: pointer;
+    color: var(--lightwhite2);
+}
